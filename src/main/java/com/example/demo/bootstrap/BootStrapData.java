@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 public class BootStrapData implements CommandLineRunner {
 
     private final AuthorRepository authorRepository;
+
     private final BookRepository bookRepository;
 
     public BootStrapData(AuthorRepository authorRepository, BookRepository bookRepository) {
